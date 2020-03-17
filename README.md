@@ -30,6 +30,9 @@ https://github.com/axios/axios
 `npm install axios` or `yarn add axios`
 
 
+## Redux 
+[logo]: https://coinerblog.com/wp-content/uploads/2018/06/Getting-Started-with-React-Redux-%E2%80%93-Hacker-Noon.png
+ 
 https://react-redux.js.org/using-react-redux/connect-mapstate
 
 
