@@ -2,6 +2,7 @@ import {customerConstants} from '../constants/customer.constant';
 
 const initialState = {
     customers : [],
+    singleCustomer: {},
     loading: false
 };
 
@@ -12,6 +13,11 @@ const initialState = {
 export function customer(state = initialState,action){
 
     switch (action.type) {
+        case customerConstants.GET_CUSTOMER_LOADING:
+        return {
+            ...state,
+            loading: true
+        }
         case customerConstants.GET_CUSTOMER_SUCCESS:
         return {
             ...state,

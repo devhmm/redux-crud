@@ -19,10 +19,16 @@ export class App extends Component {
     this.props.getAllCustomer();
   }
   render() {
-    const {customers} = this.props.customer;
+    const {customers,loading} = this.props;
     return (
       <div>
-        <CustomerList customers={customers} />
+        {
+          loading ? 
+          <p>Loading ...</p>
+          :
+          <CustomerList customers={customers} />
+        }
+        
       </div>
     )
   }
@@ -31,7 +37,8 @@ export class App extends Component {
 //Get State from store
 function mapStateToProps(state){
 return {
-  customer: state.customer
+  customers: state.customer.customers,
+  loading: state.customer.loading
 }
 }
  const mapDispatchToProps = dispatch => ({
