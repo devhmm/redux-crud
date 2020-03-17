@@ -31,11 +31,13 @@ https://github.com/axios/axios
 
 
 ## Redux 
-[logo]: https://coinerblog.com/wp-content/uploads/2018/06/Getting-Started-with-React-Redux-%E2%80%93-Hacker-Noon.png
- 
+### Life Cicle
+![alt text](/docs/images/redux-life-circle.png "Redux Life Circle")
+
+### mapStateToProps
 https://react-redux.js.org/using-react-redux/connect-mapstate
 
-
+### mapDispatchToProps
 https://react-redux.js.org/using-react-redux/connect-mapdispatch
 
 
