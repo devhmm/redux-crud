@@ -17,7 +17,7 @@
 
 `npm install redux react-redux redux-thunk`
 
-## Crete four folder
+## Create four folder
 - actions
 - reducers
 - services
@@ -39,5 +39,9 @@ https://react-redux.js.org/using-react-redux/connect-mapstate
 
 ### mapDispatchToProps
 https://react-redux.js.org/using-react-redux/connect-mapdispatch
+
+## React 
+### Life Circle
+![alt text](/docs/images/react-component-lifecircle.jpeg "Redux Life Circle")
 
 
