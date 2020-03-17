@@ -24,4 +24,15 @@
 - store
 - constants
 
+## Install axios
+### Reference Link 
+https://github.com/axios/axios
+`npm install axios` or `yarn add axios`
+
+
+https://react-redux.js.org/using-react-redux/connect-mapstate
+
+
+https://react-redux.js.org/using-react-redux/connect-mapdispatch
+
 
